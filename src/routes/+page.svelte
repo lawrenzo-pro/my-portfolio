@@ -10,7 +10,7 @@
 	<title>Lawrence Kimani - Main page</title>
 </svelte:head>
 <main>
-	<h1>Hi!✋ <br /> I'm Lawrence a Systems Programmer 💻</h1>
+	<h1>Hi!✋ <br /> I'm Lawrence, a Systems Programmer 💻.</h1>
 	<div class="icons">
 		<div
 			role="button"
