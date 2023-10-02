@@ -2,7 +2,8 @@
 	import FaLinkedin from 'svelte-icons/fa/FaLinkedin.svelte';
 	import FaGithub from 'svelte-icons/fa/FaGithub.svelte';
 	import FaEnvelope from 'svelte-icons/fa/FaEnvelope.svelte';
-	import FaMedium from 'svelte-icons/fa/FaMedium.svelte';
+	//import FaMedium from 'svelte-icons/fa/FaMedium.svelte';
+	import FaInstagram from 'svelte-icons/fa/FaInstagram.svelte'
 	import { modalOpened } from '$lib/store';
 </script>
 
@@ -48,13 +49,13 @@
 			</div>
 		</a>
 		<a
-			href="https://medium.com/@lawrencemacharia40"
+			href="https://instagram.com/lauriekimani"
 			aria-label="Medium"
 			target="_blank"
 			rel="noopener noreferrer"
 		>
 			<div class="icon">
-				<FaMedium />
+				<FaInstagram />
 			</div>
 		</a>
 	</div>
