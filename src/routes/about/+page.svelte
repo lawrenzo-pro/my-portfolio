@@ -11,9 +11,9 @@
 		<h1>About</h1>
 		<p>
 			I am a Computer Science student experienced in Systems Programming in Rust.
-			I'm learning about embedded systems programming on arrays microcontrollers and arm microcontrollers.
+			I'm learning about embedded systems programming on AVR  microcontrollers and arm microcontrollers.
 
-I'm  also interested  in iot security .
+I'm  also interested  in IoT security .
 I'm looking forward to steer embedded systems into using safer languages. 
 		</p>
 		<h2>Skills</h2>
