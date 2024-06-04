@@ -1,10 +1,10 @@
 const skills = {
-	programming: ['Node.js', 'Rust', 'Java', 'Svelte.js', 'Go', 'Assembly'],
+	programming: ['Rust', 'Java', 'Go', 'C','Assembly'],
 	// devops: [],
-	databases: ['Mysql'],
+	databases: ['Mariadb', 'Sqlite'],
 	// tools: [],
 	languages: ['Swahili', 'English'],
-	other: ['Design principles']
+	other: ['Object oriented programming']
 };
 
 export default skills;
