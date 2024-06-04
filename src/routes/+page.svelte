@@ -39,7 +39,7 @@
 			</div>
 		</a>
 		<a
-			href="https://www.linkedin.com/in/larry-kimani-9856a6242/"
+			href="https://www.linkedin.com/in/lauriekimani/"
 			aria-label="Linkedin"
 			target="_blank"
 			rel="noopener noreferrer"
