@@ -3,8 +3,10 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
+		"build": "wrangler types && vite build",
+		"preview": "npm run build && wrangler dev",
+		"deploy": "npm run build && wrangler deploy",
+		"cf-typegen": "wrangler types",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check . && eslint .",
@@ -29,8 +31,8 @@
 		"vite": "^5.4.21",
 		"sass": "^1.63.6",
 		"svelte-icons": "^2.1.0",
-		"@sveltejs/adapter-netlify": "^6.0.4",
-		"@sveltejs/adapter-node": "^5.5.7"
+		"@sveltejs/adapter-cloudflare": "^7.2.9",
+		"wrangler": "^4.106.0"
 	},
 	"type": "module"
 }
