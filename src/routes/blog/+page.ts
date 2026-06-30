@@ -8,7 +8,7 @@ export async function load({ fetch }) {
 
 		devToArticles = await devToArticles.json();
 	} catch (e) {
-		throw error(404, 'Not found');
+		error(404, 'Not found');
 	}
 
 	return {

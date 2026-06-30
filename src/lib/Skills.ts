@@ -1,5 +1,5 @@
 const skills = {
-	programming: ['Rust', 'Java', 'Go', 'C','Assembly'],
+	programming: ['Rust', 'Java', 'Go', 'C', 'Assembly'],
 	// devops: [],
 	databases: ['Mariadb', 'Sqlite'],
 	// tools: [],

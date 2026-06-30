@@ -2,15 +2,13 @@ const projects = [
 	{
 		title: 'Lexi',
 		technologies: ['Rust'],
-		description:
-			'Lexi is a simple microkernel written in the rust programming language',
+		description: 'Lexi is a simple microkernel written in the rust programming language',
 		url: 'https://github.com/lawrenzo-pro/lexi'
 	},
 	{
 		title: 'Microgrep',
 		technologies: ['Rust'],
-		description:
-			'How about rewriting grep in rust and making it worse',
+		description: 'How about rewriting grep in rust and making it worse',
 		url: 'https://github.com/lawrenzo-pro/'
 	},
 	{

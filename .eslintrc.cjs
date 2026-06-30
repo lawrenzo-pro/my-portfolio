@@ -1,5 +1,6 @@
 module.exports = {
 	root: true,
+	ignorePatterns: ['build/', '.svelte-kit/'],
 	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
